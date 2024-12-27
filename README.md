@@ -49,7 +49,7 @@ Este proyecto permite descargar cotizaciones de pares de monedas desde Kraken, c
 
 2. Ejecuta el programa principal:
    ```bash
-   python main.py
+   python -m proyecto_kraken.main
    ```
 
 3. Sigue las instrucciones en la terminal para seleccionar un par de monedas, descargar datos y visualizar el análisis en un gráfico.
@@ -125,7 +125,7 @@ Si prefieres usar Conda para gestionar el entorno virtual:
 
 4. Ejecuta el programa:
    ```bash
-   python main.py
+   python -m proyecto_kraken.main
    ```
 
 ---
@@ -142,3 +142,4 @@ El proyecto utiliza las siguientes librerías:
 ## **Autor**
 **Pedro Montt Pacheco**  
 Estudiante del Máster en Big Data - Universidad de Navarra
+
