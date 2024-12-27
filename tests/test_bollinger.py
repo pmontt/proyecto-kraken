@@ -1,6 +1,6 @@
 import pytest
 import pandas as pd
-from src.bollinger_bands import BollingerBands
+from src.proyecto_kraken.bollinger_bands import BollingerBands
 
 def test_bollinger_calculation():
     """

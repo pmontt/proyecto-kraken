@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="proyecto-kraken",  # Cambia esto por un nombre único
-    version="0.1.0",
+    name="proyecto-final-kraken",
+    version="0.1.1",  # Cambia la versión para reflejar los cambios
     description="Un proyecto para calcular entradas de compra y venta usando las Bandas de Bollinger y la API de Kraken.",
     author="Pedro Montt Pacheco",
-    author_email="pmonttpache@alumni.unav.es",
-    url="https://github.com/tu_usuario/tu_repositorio",  # Opcional: tu repo de GitHub
-    packages=find_packages(where="src"),
-    package_dir={"": "src"},
+    author_email="p-montt@hotmail.com",
+    url="https://github.com/pmontt/proyecto-kraken",  # Cambia esto por tu URL de GitHub
+    packages=find_packages(where="src"),  # Encuentra paquetes dentro de "src/"
+    package_dir={"": "src"},  # Define "src/" como la raíz
     include_package_data=True,
     install_requires=[
         "krakenex==2.2.2",
@@ -21,4 +21,9 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.9",
+    entry_points={
+        "console_scripts": [
+            "proyecto-python=proyecto_python.main:main",
+        ],
+    },
 )
