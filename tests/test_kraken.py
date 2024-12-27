@@ -1,5 +1,5 @@
 import pytest
-from src.proyecto_kraken.kraken_client import KrakenClient
+from proyecto_kraken import KrakenClient
 
 def test_kraken_get_pairs():
     """

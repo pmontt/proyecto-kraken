@@ -75,14 +75,13 @@ Se generan señales basadas en los cruces del precio con las Bandas de Bollinger
 
 ```plaintext
 Proyecto Final/
-├── src/
-│   ├── proyecto_python/         # Paquete principal
-│   │   ├── __init__.py          # Inicializa el paquete
-│   │   ├── bollinger_bands.py   # Módulo para las Bandas de Bollinger
-│   │   ├── kraken_client.py     # Módulo para interactuar con la API de Kraken
-│   │   ├── plot_utils.py        # Módulo para graficar
-│   │   ├── main.py              # Script principal del proyecto
-├── tests/
+├── proyecto_kraken/             # Paquete principal
+│   ├── __init__.py              # Inicializa el paquete
+│   ├── bollinger_bands.py       # Módulo para las Bandas de Bollinger
+│   ├── kraken_client.py         # Módulo para interactuar con la API de Kraken
+│   ├── plot_utils.py            # Módulo para graficar
+│   ├── main.py                  # Script principal del proyecto
+├── tests/                       # Pruebas unitarias del proyecto
 │   ├── test_bollinger.py        # Pruebas unitarias para Bandas de Bollinger
 │   ├── test_kraken.py           # Pruebas unitarias para Kraken
 │   ├── test_plot.py             # Pruebas unitarias para las gráficas

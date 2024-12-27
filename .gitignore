@@ -2,3 +2,8 @@ env/
 __pycache__/
 *.pyc
 .DS_Store
+
+# Carpetas generadas por setuptools y distutils
+build/
+dist/
+*.egg-info/

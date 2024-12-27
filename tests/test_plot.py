@@ -1,7 +1,7 @@
 import pytest
 import pandas as pd
-from src.proyecto_kraken.bollinger_bands import BollingerBands
-from src.proyecto_kraken.plot_utils import plot_data
+from proyecto_kraken.bollinger_bands import BollingerBands
+from proyecto_kraken import plot_data
 
 def test_plot_data_runs():
     """

@@ -1,6 +1,6 @@
-from src.proyecto_kraken.kraken_client import KrakenClient
-from src.proyecto_kraken.bollinger_bands import BollingerBands
-from src.proyecto_kraken.plot_utils import plot_data
+from proyecto_kraken.kraken_client import KrakenClient
+from proyecto_kraken.bollinger_bands import BollingerBands
+from proyecto_kraken.plot_utils import plot_data
 import pandas as pd
 
 def main():
